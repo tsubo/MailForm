@@ -32,6 +32,7 @@ class Contact extends Mailable
     {
         return $this->subject($this->inputs['subject'])
             ->from($this->inputs['email'])
+            ->replyTo($this->inputs['email'])
             ->text('emails.contact');
     }
 }
