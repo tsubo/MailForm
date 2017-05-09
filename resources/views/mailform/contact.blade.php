@@ -48,7 +48,7 @@
                 <textarea class="form-control" name="message" rows="10">{{ old('message', $inputs['message']) }}</textarea>
                 <span class="help-block">{{ $errors->first('message') }}</span>
             </div>
-            <button type="submit" class="btn btn-primary">送信</button>
+            <button type="submit" class="btn btn-primary">確認</button>
         </form>
     </div>
 </div>
