@@ -6,6 +6,8 @@ Laravel v5.4 で確認画面付きのコンタクトフォームを実装する�
 
 ```
 git clone https://github.com/tsubo/MailForm.git
+cd MailForm
+composer install
 ```
 
 ## 初期設定
@@ -13,7 +15,6 @@ git clone https://github.com/tsubo/MailForm.git
 ### .env ファイルの作成とキー生成
 
 ```
-cd MailForm
 cp .env.example .env
 php artisan key:generate
 ```
